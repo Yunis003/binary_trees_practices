@@ -19,8 +19,5 @@ binary_tree_t *binary_tree_uncle(binary_tree_t *node)
 	{
 		return (new_node->right);
 	}
-	else
-	{
-		return (new_node->left);
-	}
+	return (new_node->left);
 }
